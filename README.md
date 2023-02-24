@@ -7,6 +7,7 @@ https://wlanpi.gitbook.io/cookbook/wi-fi-channel-tool-wifichannel
 
 ## How to install
 Install wifichannel on macOS by executing this command in Terminal:
-
-`curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/install.sh | sudo bash`
+```
+curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/install.sh | sudo bash
+```
 
