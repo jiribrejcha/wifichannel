@@ -41,8 +41,8 @@ if [ -z "$BAND" ]; then
 fi
 }
 
-# Only accept a single argument
-if [ "$#" -ne 1 ]; then
+# Only accept a single or no argument
+if [ "$#" -gt 2 ]; then
     invalid_input
 fi
 
@@ -244,12 +244,12 @@ channel_to_freq(){
 
 # Process options and filter invalid input out
 case $INPUT in
-    -h | --help) usage ;;
+    -h | --help | '') usage ;;
     -v | --version) version ;;
     -2.4 | -2) show_all_2_4 ;;
     -5) show_all_5 ;;
     -6) show_all_6 ;;
-    ''|*[!0-9]*) invalid_input ;;
+    *[!0-9]*) invalid_input ;;
 esac
 
 # Convert channel to frequency or vice versa
