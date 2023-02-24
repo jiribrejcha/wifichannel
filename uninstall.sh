@@ -19,4 +19,4 @@ if [ -L /usr/local/bin/wifichannel ]; then
     unlink /usr/local/bin/wifichannel
 fi
 
-echo "wifichannel has been uninstalled..."
+echo "Uninstallation complete. Quit Terminal and restart it for wifichannel command to disappear from autocompletion cache."
