@@ -9,8 +9,7 @@ https://wlanpi.gitbook.io/cookbook/wi-fi-channel-tool-wifichannel
 Install wifichannel on macOS by executing this command in Terminal:
 
 ```
-sudo echo && curl -s 
-https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/install.sh | sudo bash
+sudo echo && curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/install.sh | sudo bash
 ```
 
 Note: "sudo echo" workarounds a [known zsh 
@@ -21,8 +20,7 @@ on macOS.
 Execute this command in macOS Terminal app to uninstall wifichannel:
 
 ```
-sudo echo && curl -s 
-https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/uninstall.sh | sudo bash
+sudo echo && curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/uninstall.sh | sudo bash
 ```
 
 # WLAN Pi project
