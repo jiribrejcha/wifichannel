@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script converts channel number to center frequency in MHz, and vice versa. 
+# This tool converts channel number to center frequency in MHz, and vice versa
 
 # Author: Jiri Brejcha, jirka@jiribrejcha.net, @jiribrejcha
 # Idea sparked by Nick Turner @nickjvturner, thanks to Adrian Granados @adriangranados and Keith Parsons @KeithRParsons
