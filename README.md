@@ -13,6 +13,6 @@ curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/install.s
 ```
 
 ## Special thanks to
-- @nickjvturner for sparking the idea
-- @adriangranados for inspiration
-- Keith Parsons (@KeithRParsons on Twitter) for amazing spectrum charts
+- [Nick Turner](https://twitter.com/nickjvturner) for sparking the idea
+- [Adrian Granados](https://twitter.com/adriangranados) for inspiration
+- [Keith Parsons](https://twitter.com/keithrparsons) for amazing spectrum charts
