@@ -12,3 +12,7 @@ Install wifichannel on macOS by executing this command in Terminal:
 curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/install.sh | sudo bash
 ```
 
+## Special thanks to
+- @nickjvturner for sparking the idea
+- @adriangranados for inspiration
+- Keith Parsons (@KeithRParsons on Twitter) for amazing spectrum charts
