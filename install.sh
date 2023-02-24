@@ -7,6 +7,6 @@
 # Any feedback or improvements are very welcome
 
 mkdir -p ~/wifichannel
-curl https://raw.githubusercontent.com/WLAN-Pi/wlanpi-common/main/opt/wlanpi-common/wifichannel.sh --output ~/wifichannel/wifichannel.sh
+curl https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/wifichannel.sh --output ~/wifichannel/wifichannel.sh
 chmod +x ~/wifichannel/wifichannel.sh
 ln -s ~/wifichannel/wifichannel.sh /usr/local/bin/wifichannel
