@@ -26,4 +26,4 @@ wifichannel is included in the WLAN Pi image.
 # Special thanks to
 - [Nick Turner](https://twitter.com/nickjvturner) for sparking the idea
 - [Adrian Granados](https://twitter.com/adriangranados) for inspiration
-- [Keith Parsons](https://twitter.com/keithrparsons) for amazing spectrum charts
+- [Keith Parsons](https://twitter.com/keithrparsons) for amazing [spectrum charts](https://www.wlanpros.com/spectrum)
