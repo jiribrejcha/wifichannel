@@ -26,7 +26,7 @@ curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/install.s
 ```
 
 ## How to uninstall
-Execute this command in macOS Terminal app to uninstall wifichannel:
+Execute this command in macOS Terminal app on macOS (or wsl on Windows 11) to uninstall wifichannel:
 
 ```
 sudo echo && curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/uninstall.sh | sudo bash
