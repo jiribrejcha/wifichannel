@@ -11,15 +11,9 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 fi
 
-mkdir -p ~/wifichannel
-
 echo "Downloading wifichannel..."
-curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/wifichannel.sh --output ~/wifichannel/wifichannel.sh
+curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/wifichannel.sh --output /usr/local/bin/wifichannel
 echo "Setting executable permissions..."
-chmod +x ~/wifichannel/wifichannel.sh
-echo "Creating symbolic link..."
-if ! [ -L /usr/local/bin/wifichannel ]; then
-    ln -s ~/wifichannel/wifichannel.sh /usr/local/bin/wifichannel
-fi
+chmod +x /usr/local/bin/wifichannel
 
-echo "All done. Quit Terminal and restart it. Start wifichannel by \"wifichannel\"."
+echo "All done. Start wifichannel by \"wifichannel\". On macOS, quit Terminal and restart it to add wifichannel to autocompletion."
