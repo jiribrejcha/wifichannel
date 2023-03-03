@@ -26,4 +26,4 @@ if [ -f /usr/local/bin/wifichannel ]; then
     rm -f /usr/local/bin/wifichannel
 fi
 
-echo "Uninstallation complete. Quit Terminal and restart it for wifichannel command to disappear from autocompletion cache."
+echo "Uninstallation complete. Quit Terminal and restart it for wifichannel to disappear from autocompletion cache."
