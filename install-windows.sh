@@ -16,4 +16,4 @@ curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/wifichann
 echo "Setting executable permissions..."
 chmod +x /usr/local/bin/wifichannel
 
-echo "All done. Start wifichannel by \"wifichannel\". Restart Terminal to add wifichannel to autocompletion."
+echo "All done. Start wifichannel by \"wifichannel\". On macOS, quit Terminal and restart it to add wifichannel to autocompletion."
