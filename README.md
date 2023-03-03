@@ -17,7 +17,13 @@ issue](https://support.doppler.com/hc/en-us/articles/6520676549915-Curl-CLI-inst
 on macOS.
 
 ## How to install on Windows 11
-Coming soon!
+1. Install [Windows Subsystem for Linux (WSL)](https://techcommunity.microsoft.com/t5/windows-11/how-to-install-the-linux-windows-subsystem-in-windows-11/m-p/2701207)
+2. Open WSL by pressing the Window key, type "wsl", and press Enter key.
+3. In WSL shell, execute this command:
+
+```
+curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/install.sh | sudo bash
+```
 
 ## How to uninstall
 Execute this command in macOS Terminal app to uninstall wifichannel:
