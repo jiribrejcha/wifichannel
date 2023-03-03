@@ -5,7 +5,7 @@ Converts channel number to center frequency, and vice versa.
 Few practical examples of what it can do for you:
 https://wlanpi.gitbook.io/cookbook/wi-fi-channel-tool-wifichannel
 
-## How to install
+## How to install on macOS
 Install wifichannel on macOS by executing this command in Terminal:
 
 ```
@@ -15,6 +15,9 @@ sudo echo && curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/m
 Note: "sudo echo" workarounds a [known zsh 
 issue](https://support.doppler.com/hc/en-us/articles/6520676549915-Curl-CLI-installation-fails-when-using-ZSH) 
 on macOS.
+
+## How to install on Windows 11
+Coming soon!
 
 ## How to uninstall
 Execute this command in macOS Terminal app to uninstall wifichannel:
