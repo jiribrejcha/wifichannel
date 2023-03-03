@@ -11,12 +11,19 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 fi
 
-echo "Removing wifichannel files..."
-rm -fdr ~/wifichannel
+if [ -d ~/wifichannel ]; then
+    echo "Removing wifichannel directory..."
+    rm -fdr ~/wifichannel
+fi
 
-echo "Removing symbolic link..."
 if [ -L /usr/local/bin/wifichannel ]; then
+    echo "Removing symbolic link..."
     unlink /usr/local/bin/wifichannel
+fi
+
+if [ -f /usr/local/bin/wifichannel ]; then
+    echo "Removing script file..."
+    rm -f /usr/local/bin/wifichannel
 fi
 
 echo "Uninstallation complete. Quit Terminal and restart it for wifichannel command to disappear from autocompletion cache."
