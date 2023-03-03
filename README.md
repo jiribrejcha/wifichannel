@@ -5,6 +5,8 @@ Converts channel number to center frequency, and vice versa.
 Few practical examples of what it can do for you:
 https://wlanpi.gitbook.io/cookbook/wi-fi-channel-tool-wifichannel
 
+![Example of how to use wifichannel](https://pbs.twimg.com/media/FqEnq5uWcAEGD0q?format=jpg&name=small)
+
 ## How to install on macOS
 Install wifichannel on macOS by executing this command in Terminal:
 
