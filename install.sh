@@ -11,6 +11,21 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 fi
 
+# Installation directory
+DIR="/usr/local/bin"
+
+if [ ! -d "$DIR" ]; then
+  echo "Directory $DIR does not exist. Creating it..."
+  sudo mkdir -p "$DIR"
+  
+  if [ $? -eq 0 ]; then
+    echo "Directory $DIR created successfully."
+  else
+    echo "Failed to create directory $DIR. Check your permissions."
+    exit 1
+  fi
+fi
+
 echo "Downloading wifichannel..."
 curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/main/wifichannel.sh --output /usr/local/bin/wifichannel
 echo "Setting executable permissions..."
