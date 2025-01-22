@@ -2,8 +2,7 @@
 Converts channel number to center frequency, and vice versa.
 
 ## How to use
-Few practical examples of what it can do for you:
-https://wlanpi.gitbook.io/cookbook/wi-fi-channel-tool-wifichannel
+[Few practical examples](https://wlanpi.gitbook.io/cookbook/2024-m4-volume-2) of how you can use wifichannel.
 
 ![Example of how to use wifichannel](https://pbs.twimg.com/media/FqEnq5uWcAEGD0q?format=jpg&name=small)
 
