@@ -42,7 +42,7 @@ sudo echo && curl -s https://raw.githubusercontent.com/jiribrejcha/wifichannel/m
 
 # WLAN Pi project
 If you like this tool and have interest in Wi-Fi, make sure to check the [WLAN Pi project](http://www.wlanpi.com). 
-wifichannel is preinstalled on the WLAN Pi tool for your convenience. Simply SSH to your WLAN Pi and use it.
+wifichannel is preinstalled on the WLAN Pi tool for your convenience. Simply SSH to your WLAN Pi and [use it](https://wlanpi.gitbook.io/cookbook/2024-m4-volume-2).
 
 # Special thanks to
 - [Nick Turner](https://twitter.com/nickjvturner) for sparking the idea
