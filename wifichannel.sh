@@ -21,7 +21,7 @@ usage(){
     echo "Options:"
     echo "  -v, --version  Show version"
     echo "  -h, --help     Show this screen"
-    echo "  -2.4, -2       List all 2.4 GHz channels"
+    echo "  -2, -2.4       List all 2.4 GHz channels"
     echo "  -5             List all 5 GHz channels"
     echo "  -6             List all 6 GHz channels"
     echo
